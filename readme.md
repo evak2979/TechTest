@@ -3,7 +3,7 @@
 Welcome to Bookatable's coding test.
 
 The solution comprises a rudimentary message publishing mechanism (OffersPublisher), a rudimentary event-queue mechanism (OffersQueue), 
-an observer (OffersSubscriber) and a repository (Offersrepository) implementing a simple No-Sql DB solution.
+a subscriber (OffersSubscriber) and a repository (OffersRepository) implementing a simple No-Sql DB solution.
 
 We have already set up OffersPublisher to publish messages to OffersQueue and OffersSubscriber to listen for messages from OffersQueue. 
 What we would like of you is to implement the actual OffersSubscriber class, and ensure the following:
