@@ -3,7 +3,7 @@ using TechTest.Messages;
 
 namespace TechTest.Queues
 {
-    public interface ISubscriber<in T> where T : OfferMessage
+    public interface ISubscriber<in T>
     {
         Task Handle(T message);
     }

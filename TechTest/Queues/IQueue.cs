@@ -2,7 +2,7 @@
 
 namespace TechTest.Queues
 {
-    public interface IQueue<T> where T : OfferMessage
+    public interface IQueue<T>
     {
         void Register(ISubscriber<T> subscriber);
 
