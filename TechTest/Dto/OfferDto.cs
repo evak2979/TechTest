@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace TechTest.Dto
+﻿namespace TechTest.Dto
 {
     public class OfferDtoBase
     {

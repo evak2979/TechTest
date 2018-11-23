@@ -1,6 +1,4 @@
 ﻿using System.IO;
-using LiteDB;
-using TechTest.Dto;
 
 namespace TechTest.Data
 {
