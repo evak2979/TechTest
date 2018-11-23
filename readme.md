@@ -14,6 +14,8 @@ What we would like of you is to implement the actual OffersSubscriber class, and
 You should not need to modify any of the interfaces, or any of the classes other than OffersSubscriber. However, you are welcome to modify parts of the code that create new instances of the 
 OffersSubscriber class should you find yourself needing to add a constructor to OffersSubscriber.
 
+You are encouraged to create your own interfaces and classes complementing your implementation should you feel that doing so leads to a cleaner, more scalable design.
+
 ### How to submit your solution to us:
 
 1. Download this repo locally, and then publish it as a new repo to your github/bitbucket account.
