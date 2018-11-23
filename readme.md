@@ -2,13 +2,13 @@
 
 Welcome to Bookatable's coding test.
 
-The solution mainly comprises a rudimentary event-queue mechanism (OffersQueue), an observer (OffersSubscriber) and a repository (Offersrepository) implementing a simple No-Sql DB solution,.
+The solution mainly comprises a rudimentary event-queue mechanism (OffersQueue), an observer (OffersSubscriber) and a repository (Offersrepository) implementing a simple No-Sql DB solution.
 
 We have already set up OffersSubscriber to listen for messages from OffersQueue. What we would like of you is to implement the actual OffersSubscriber class. 
 While doing so, you should ensure that:
 
-1. If there are no records in the DB with the incoming message's Id, you should insert a new record in the DB comprising all the fields of the incoming message.
-2. If there exists a record in the DB with the incoming message's Id, you should update the existing record.
+1. If there are no records in the DB with the incoming message's Id, use the Repository class to insert a new record in the DB comprising all the fields of the incoming message.
+2. If there exists a record in the DB with the incoming message's Id, use the Repository class to update the existing record.
 
 You should not need to modify any of the interfaces, or any other classes save for OffersSubscriber. However, you are welcome to modify methods instantiating OffersSubscriber if you find yourself
 needing to add a constructor to the class. You are welcome to create new classes and interfaces as you see fit. 
