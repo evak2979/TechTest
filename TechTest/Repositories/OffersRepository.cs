@@ -6,7 +6,7 @@ using TechTest.Dto;
 
 namespace TechTest.Repositories
 {
-    public class OffersRepository<T> : IRepository<T> where T : OfferDtoBase
+    public class OffersRepository<T> : IOfferRepository<T> where T : OfferDtoBase
     {
         public async Task Insert(T offerMessage)
         {

@@ -3,7 +3,7 @@ using TechTest.Dto;
 
 namespace TechTest.Repositories
 {
-    public interface IRepository<T> where T : OfferDtoBase
+    public interface IOfferRepository<T> where T : OfferDtoBase
     {
         Task Insert(T aggregate);
 
