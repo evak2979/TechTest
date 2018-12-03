@@ -6,7 +6,7 @@ namespace TechTest.Queues
 {
     public class OffersSubscriber : ISubscriber<OfferMessage>
     {
-        public async Task Handle(OfferMessage message)
+        public Task Handle(OfferMessage message)
         {
             throw new NotFiniteNumberException();
         }

@@ -1,10 +1,11 @@
 ﻿using System;
-using TechTest.Dto;
 
 namespace TechTest.Messages
 {
-    public class OfferMessage : OfferDtoBase
+    public class OfferMessage
     {
+        public int Id { get; set; }
+
         public int Version { get; set; }
 
         public string Description { get; set; }
